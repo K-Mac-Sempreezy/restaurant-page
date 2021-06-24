@@ -114,7 +114,6 @@ p {
 }
 
 .img { 
-  background-image: url(/dist/imgs/fruit-stand.png);
   height: 400px;
   margin-right: 100px;
 } 
