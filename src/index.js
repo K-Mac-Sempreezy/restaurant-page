@@ -7,5 +7,3 @@ const init = () => {
 
 init();
 
-
-console.log('hiiii');
