@@ -625,7 +625,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const resetPage = (e) => {
-  console.log(e.target.id);
+  // console.log(e.target.id);
   const cards = document.querySelectorAll('.card');
   const overlay = document.getElementById('overlay');
   const overlayContainer = document.getElementById('overlay-container');
