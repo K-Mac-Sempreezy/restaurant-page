@@ -2,60 +2,10 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./dist/fonts/Montserrat-Bold.ttf":
-/*!****************************************!*\
-  !*** ./dist/fonts/Montserrat-Bold.ttf ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "079ca05d3ded9bc107ab.ttf";
-
-/***/ }),
-
-/***/ "./dist/fonts/Montserrat-Regular.ttf":
-/*!*******************************************!*\
-  !*** ./dist/fonts/Montserrat-Regular.ttf ***!
-  \*******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "3cd786652b8a2e9d41f2.ttf";
-
-/***/ }),
-
-/***/ "./dist/fonts/UnicaOne-Regular.ttf":
-/*!*****************************************!*\
-  !*** ./dist/fonts/UnicaOne-Regular.ttf ***!
-  \*****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "c2063fa2849e651fed6c.ttf";
-
-/***/ }),
-
-/***/ "./dist/imgs/mike-dorner-sf_1ZDA1YFw-unsplash.jpg":
-/*!********************************************************!*\
-  !*** ./dist/imgs/mike-dorner-sf_1ZDA1YFw-unsplash.jpg ***!
-  \********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "77ff416c34f2954ba741.jpg";
-
-/***/ }),
-
-/***/ "./dist/svg/github-icon.svg":
-/*!**********************************!*\
-  !*** ./dist/svg/github-icon.svg ***!
-  \**********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "3f91b5bc2a2377afd544.svg";
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./dist/style.css":
-/*!**************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./dist/style.css ***!
-  \**************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/style.css":
+/*!*************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/style.css ***!
+  \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -68,11 +18,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _fonts_UnicaOne_Regular_ttf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./fonts/UnicaOne-Regular.ttf */ "./dist/fonts/UnicaOne-Regular.ttf");
-/* harmony import */ var _fonts_Montserrat_Regular_ttf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./fonts/Montserrat-Regular.ttf */ "./dist/fonts/Montserrat-Regular.ttf");
-/* harmony import */ var _fonts_Montserrat_Bold_ttf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./fonts/Montserrat-Bold.ttf */ "./dist/fonts/Montserrat-Bold.ttf");
-/* harmony import */ var _imgs_mike_dorner_sf_1ZDA1YFw_unsplash_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./imgs/mike-dorner-sf_1ZDA1YFw-unsplash.jpg */ "./dist/imgs/mike-dorner-sf_1ZDA1YFw-unsplash.jpg");
-/* harmony import */ var _svg_github_icon_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./svg/github-icon.svg */ "./dist/svg/github-icon.svg");
+/* harmony import */ var _fonts_UnicaOne_Regular_ttf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./fonts/UnicaOne-Regular.ttf */ "./src/fonts/UnicaOne-Regular.ttf");
+/* harmony import */ var _fonts_Montserrat_Regular_ttf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./fonts/Montserrat-Regular.ttf */ "./src/fonts/Montserrat-Regular.ttf");
+/* harmony import */ var _fonts_Montserrat_Bold_ttf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./fonts/Montserrat-Bold.ttf */ "./src/fonts/Montserrat-Bold.ttf");
+/* harmony import */ var _imgs_mike_dorner_sf_1ZDA1YFw_unsplash_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./imgs/mike-dorner-sf_1ZDA1YFw-unsplash.jpg */ "./src/imgs/mike-dorner-sf_1ZDA1YFw-unsplash.jpg");
+/* harmony import */ var _svg_github_icon_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./svg/github-icon.svg */ "./src/svg/github-icon.svg");
 // Imports
 
 
@@ -89,7 +39,7 @@ var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_g
 var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_imgs_mike_dorner_sf_1ZDA1YFw_unsplash_jpg__WEBPACK_IMPORTED_MODULE_6__);
 var ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_svg_github_icon_svg__WEBPACK_IMPORTED_MODULE_7__);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/* Fonts */\n@font-face {\n  font-family: 'UnicaOne-Regular';\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\n@font-face {\n  font-family: 'Montserrat-Regular';\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n\n@font-face {\n  font-family: 'Montserrat-Bold';\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n}\n\n/* page elements */\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nhtml {\n  min-height: 100vh;\n}\n\nbody {\n  min-height: 100vh;\n}\n\nh4 {\n  padding: 24px 90px;\n  font-family: 'Montserrat-Regular';\n  font-size: 18px;\n  letter-spacing: 2px;\n  color: rgb(59, 47, 93);\n}\n\nh3 {\n  padding-bottom: 20px;\n}\n\nh2 {\n  font-family: 'UnicaOne-Regular';\n  font-size: 48px;\n  color: rgb(59, 47, 93);\n}\n\na {\n  line-height: 35px;\n  font-size: 18px;\n  color: rgb(239, 170, 187);\n  font-family: 'Montserrat-Regular';\n  text-decoration: none;\n}\n\na:hover {\n  color: rgb(255, 223, 135);\n}\n\np {\n  font-family: 'Montserrat-Regular';\n  font-size: 16px;\n  line-height: 25px;\n  color: rgb(59, 47, 93);\n}\n\n/* classes alphabetically */\n.about-div {\n  width: 50vw;\n}\n\n.about-div > h2 {\n  padding-bottom: 50px;\n}\n\n.active {\n  text-shadow: 2px 2px 0px rgb(255, 223, 135);\n}\n\n.background-img {\n  height: 100vh;\n  width: 100vw;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n  position: fixed;\n  top: 0;\n  left: 0;\n  /* z-index: 1; */\n}\n\n.card {\n  height: 400px;\n  width: 800px;\n  display: flex;\n  flex-direction: row;\n  margin: 20px;\n  background-color: rgb(251, 228, 235);\n  /* rgba(255, 255, 255, 0.6); */\n  z-index: 9;\n  opacity: 1;\n  transition: opacity .5s;\n  position: relative;\n}\n\n.card > img {\n  height: 400px;\n  position: absolute;\n  top: 0;\n  right: 0;\n  /* width: 50px; */\n}\n\n.img { \n  width: 318px;\n  height: 400px;\n  margin-right: 100px;\n} \n\n.price {\n  font-family: 'UnicaOne-Regular';\n  font-size: 24px;\n  padding-bottom: 30px;\n}\n\n.text {\n  padding: 50px;\n  width: 400px;\n  display: inline-block;\n  color: rgb(59, 47, 93);\n  font-family: 'UnicaOne-Regular';\n  font-size: 28px;\n}\n\n\n/* ids alphabetically */\n\n\n#about-container {\n  min-height: 100vh;\n  width: 100vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: rgba(241, 180, 196, 1);\n  z-index: 5;\n  visibility: hidden;\n  transition: opacity 1s;\n  opacity: 1;\n  position: fixed;\n  top: 40;\n  left: 0;\n}\n\n#container {\n  min-height: 100vh;\n  width: 100vw;\n  margin-top: 40px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  /* background-color: rgba(241, 180, 196, 0.99); */\n  z-index: 10;\n}\n\n#content {\n  min-height: 100vh;\n  max-width: 100vw;\n}\n\n#footer {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  flex-direction: row;\n  width: 100vw;\n  height: 140px;\n  background-color: rgba(62, 44, 88, 0.882);\n}\n\n#footer-author-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n}\n\n#footer-author-container > p {\n  line-height: 35px;\n  font-size: 18px;\n  color: #efaabb;\n  font-family: 'Montserrat-Regular';\n}\n\n#footer-author-svg {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ");\n  background-repeat: no-repeat;\n  height: 50px;\n  width: 50px;\n}\n\n#footer-nav {\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  flex-direction: column;\n  margin-left: 50px;\n}\n\n#footer-nav > p {\n  line-height: 35px;\n  font-size: 18px;\n  color: #efaabb;\n  font-family: 'Montserrat-Regular';\n  cursor: pointer;\n}\n\n#header {\n  width: 100vw;\n  height: 70px;\n  background-color: rgb(250, 197, 211);\n  position: fixed;\n  display: block;\n  top: 0;\n  left: 0;\n  z-index: 10;\n}\n\n#logo {\n  height: 200px;\n  width: 200px;\n  position: fixed; \n  top: 160px;\n  left: 400px;\n  font-family: 'UnicaOne-Regular';\n  font-size: 100px;\n  line-height: 75px;\n  color: rgb(59, 47, 93);\n  text-shadow: 5px 5px 0px rgb(255, 223, 135);\n  z-index: 1;\n}\n\n#nav {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  overflow: hidden;\n}\n\n#nav > h4:hover {\n  background-color: rgb(255, 223, 135);\n  cursor: pointer;\n}\n\n#overlay {\n  min-height: 100vh;\n  width: 100vw;\n  padding-top: 70px;\n  padding-bottom: 100px;\n  background-color: rgba(241, 180, 196, 0.0);\n}\n\n#overlay-container {\n  scroll-behavior: smooth;\n  min-height: 100vh;\n  width: 100vw;\n  /* background-color: rgba(241, 180, 196, 0.75); */\n  background-color: rgba(241, 180, 196, 0.0);\n  position: relative;\n  z-index: 6;\n  transition: transform .5s;\n}\n\n#other-info {\n  margin-right: 50px;\n}\n\n#other-info > p {\n  line-height: 35px;\n  font-size: 18px;\n  color: rgb(59, 47, 93);\n  font-family: 'Montserrat-Regular';\n}", "",{"version":3,"sources":["webpack://./dist/style.css"],"names":[],"mappings":"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","sourcesContent":["/* Fonts */\n@font-face {\n  font-family: 'UnicaOne-Regular';\n  src: url('/dist/fonts/UnicaOne-Regular.ttf');\n}\n\n@font-face {\n  font-family: 'Montserrat-Regular';\n  src: url('/dist/fonts/Montserrat-Regular.ttf');\n}\n\n@font-face {\n  font-family: 'Montserrat-Bold';\n  src: url('/dist/fonts/Montserrat-Bold.ttf');\n}\n\n/* page elements */\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nhtml {\n  min-height: 100vh;\n}\n\nbody {\n  min-height: 100vh;\n}\n\nh4 {\n  padding: 24px 90px;\n  font-family: 'Montserrat-Regular';\n  font-size: 18px;\n  letter-spacing: 2px;\n  color: rgb(59, 47, 93);\n}\n\nh3 {\n  padding-bottom: 20px;\n}\n\nh2 {\n  font-family: 'UnicaOne-Regular';\n  font-size: 48px;\n  color: rgb(59, 47, 93);\n}\n\na {\n  line-height: 35px;\n  font-size: 18px;\n  color: rgb(239, 170, 187);\n  font-family: 'Montserrat-Regular';\n  text-decoration: none;\n}\n\na:hover {\n  color: rgb(255, 223, 135);\n}\n\np {\n  font-family: 'Montserrat-Regular';\n  font-size: 16px;\n  line-height: 25px;\n  color: rgb(59, 47, 93);\n}\n\n/* classes alphabetically */\n.about-div {\n  width: 50vw;\n}\n\n.about-div > h2 {\n  padding-bottom: 50px;\n}\n\n.active {\n  text-shadow: 2px 2px 0px rgb(255, 223, 135);\n}\n\n.background-img {\n  height: 100vh;\n  width: 100vw;\n  background-image: url('/dist/imgs/mike-dorner-sf_1ZDA1YFw-unsplash.jpg');\n  background-repeat: no-repeat;\n  background-size: cover;\n  position: fixed;\n  top: 0;\n  left: 0;\n  /* z-index: 1; */\n}\n\n.card {\n  height: 400px;\n  width: 800px;\n  display: flex;\n  flex-direction: row;\n  margin: 20px;\n  background-color: rgb(251, 228, 235);\n  /* rgba(255, 255, 255, 0.6); */\n  z-index: 9;\n  opacity: 1;\n  transition: opacity .5s;\n  position: relative;\n}\n\n.card > img {\n  height: 400px;\n  position: absolute;\n  top: 0;\n  right: 0;\n  /* width: 50px; */\n}\n\n.img { \n  width: 318px;\n  height: 400px;\n  margin-right: 100px;\n} \n\n.price {\n  font-family: 'UnicaOne-Regular';\n  font-size: 24px;\n  padding-bottom: 30px;\n}\n\n.text {\n  padding: 50px;\n  width: 400px;\n  display: inline-block;\n  color: rgb(59, 47, 93);\n  font-family: 'UnicaOne-Regular';\n  font-size: 28px;\n}\n\n\n/* ids alphabetically */\n\n\n#about-container {\n  min-height: 100vh;\n  width: 100vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: rgba(241, 180, 196, 1);\n  z-index: 5;\n  visibility: hidden;\n  transition: opacity 1s;\n  opacity: 1;\n  position: fixed;\n  top: 40;\n  left: 0;\n}\n\n#container {\n  min-height: 100vh;\n  width: 100vw;\n  margin-top: 40px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  /* background-color: rgba(241, 180, 196, 0.99); */\n  z-index: 10;\n}\n\n#content {\n  min-height: 100vh;\n  max-width: 100vw;\n}\n\n#footer {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  flex-direction: row;\n  width: 100vw;\n  height: 140px;\n  background-color: rgba(62, 44, 88, 0.882);\n}\n\n#footer-author-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n}\n\n#footer-author-container > p {\n  line-height: 35px;\n  font-size: 18px;\n  color: #efaabb;\n  font-family: 'Montserrat-Regular';\n}\n\n#footer-author-svg {\n  background-image: url('/dist/svg/github-icon.svg');\n  background-repeat: no-repeat;\n  height: 50px;\n  width: 50px;\n}\n\n#footer-nav {\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  flex-direction: column;\n  margin-left: 50px;\n}\n\n#footer-nav > p {\n  line-height: 35px;\n  font-size: 18px;\n  color: #efaabb;\n  font-family: 'Montserrat-Regular';\n  cursor: pointer;\n}\n\n#header {\n  width: 100vw;\n  height: 70px;\n  background-color: rgb(250, 197, 211);\n  position: fixed;\n  display: block;\n  top: 0;\n  left: 0;\n  z-index: 10;\n}\n\n#logo {\n  height: 200px;\n  width: 200px;\n  position: fixed; \n  top: 160px;\n  left: 400px;\n  font-family: 'UnicaOne-Regular';\n  font-size: 100px;\n  line-height: 75px;\n  color: rgb(59, 47, 93);\n  text-shadow: 5px 5px 0px rgb(255, 223, 135);\n  z-index: 1;\n}\n\n#nav {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  overflow: hidden;\n}\n\n#nav > h4:hover {\n  background-color: rgb(255, 223, 135);\n  cursor: pointer;\n}\n\n#overlay {\n  min-height: 100vh;\n  width: 100vw;\n  padding-top: 70px;\n  padding-bottom: 100px;\n  background-color: rgba(241, 180, 196, 0.0);\n}\n\n#overlay-container {\n  scroll-behavior: smooth;\n  min-height: 100vh;\n  width: 100vw;\n  /* background-color: rgba(241, 180, 196, 0.75); */\n  background-color: rgba(241, 180, 196, 0.0);\n  position: relative;\n  z-index: 6;\n  transition: transform .5s;\n}\n\n#other-info {\n  margin-right: 50px;\n}\n\n#other-info > p {\n  line-height: 35px;\n  font-size: 18px;\n  color: rgb(59, 47, 93);\n  font-family: 'Montserrat-Regular';\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "/* Fonts */\n@font-face {\n  font-family: 'UnicaOne-Regular';\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\n@font-face {\n  font-family: 'Montserrat-Regular';\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n\n@font-face {\n  font-family: 'Montserrat-Bold';\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n}\n\n/* page elements */\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nhtml {\n  min-height: 100vh;\n}\n\nbody {\n  min-height: 100vh;\n}\n\nh4 {\n  padding: 24px 90px;\n  font-family: 'Montserrat-Regular';\n  font-size: 18px;\n  letter-spacing: 2px;\n  color: rgb(59, 47, 93);\n}\n\nh3 {\n  padding-bottom: 20px;\n}\n\nh2 {\n  font-family: 'UnicaOne-Regular';\n  font-size: 48px;\n  color: rgb(59, 47, 93);\n}\n\na {\n  line-height: 35px;\n  font-size: 18px;\n  color: rgb(239, 170, 187);\n  font-family: 'Montserrat-Regular';\n  text-decoration: none;\n}\n\na:hover {\n  color: rgb(255, 223, 135);\n}\n\np {\n  font-family: 'Montserrat-Regular';\n  font-size: 16px;\n  line-height: 25px;\n  color: rgb(59, 47, 93);\n}\n\n/* classes alphabetically */\n.about-div {\n  width: 50vw;\n}\n\n.about-div > h2 {\n  padding-bottom: 50px;\n}\n\n.active {\n  text-shadow: 2px 2px 0px rgb(255, 223, 135);\n}\n\n.background-img {\n  height: 100vh;\n  width: 100vw;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n  position: fixed;\n  top: 0;\n  left: 0;\n  /* z-index: 1; */\n}\n\n.card {\n  height: 400px;\n  width: 800px;\n  display: flex;\n  flex-direction: row;\n  margin: 20px;\n  background-color: rgb(251, 228, 235);\n  /* rgba(255, 255, 255, 0.6); */\n  z-index: 9;\n  opacity: 1;\n  transition: opacity .5s;\n  position: relative;\n}\n\n.card > img {\n  height: 400px;\n  position: absolute;\n  top: 0;\n  right: 0;\n  /* width: 50px; */\n}\n\n.img { \n  width: 318px;\n  height: 400px;\n  margin-right: 100px;\n} \n\n.price {\n  font-family: 'UnicaOne-Regular';\n  font-size: 24px;\n  padding-bottom: 30px;\n}\n\n.text {\n  padding: 50px;\n  width: 400px;\n  display: inline-block;\n  color: rgb(59, 47, 93);\n  font-family: 'UnicaOne-Regular';\n  font-size: 28px;\n}\n\n\n/* ids alphabetically */\n\n\n#about-container {\n  min-height: 100vh;\n  width: 100vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: rgba(241, 180, 196, 1);\n  z-index: 5;\n  visibility: hidden;\n  transition: opacity 1s;\n  opacity: 1;\n  position: fixed;\n  top: 40;\n  left: 0;\n}\n\n#container {\n  min-height: 100vh;\n  width: 100vw;\n  margin-top: 40px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  /* background-color: rgba(241, 180, 196, 0.99); */\n  z-index: 10;\n}\n\n#content {\n  min-height: 100vh;\n  max-width: 100vw;\n}\n\n#footer {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  flex-direction: row;\n  width: 100vw;\n  height: 140px;\n  background-color: rgba(62, 44, 88, 0.882);\n}\n\n#footer-author-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n}\n\n#footer-author-container > p {\n  line-height: 35px;\n  font-size: 18px;\n  color: #efaabb;\n  font-family: 'Montserrat-Regular';\n}\n\n#footer-author-svg {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ");\n  background-repeat: no-repeat;\n  height: 50px;\n  width: 50px;\n}\n\n#footer-nav {\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  flex-direction: column;\n  margin-left: 50px;\n}\n\n#footer-nav > p {\n  line-height: 35px;\n  font-size: 18px;\n  color: #efaabb;\n  font-family: 'Montserrat-Regular';\n  cursor: pointer;\n}\n\n#header {\n  width: 100vw;\n  height: 70px;\n  background-color: rgb(250, 197, 211);\n  position: fixed;\n  display: block;\n  top: 0;\n  left: 0;\n  z-index: 10;\n}\n\n#logo {\n  height: 200px;\n  width: 200px;\n  position: fixed; \n  top: 160px;\n  left: 400px;\n  font-family: 'UnicaOne-Regular';\n  font-size: 100px;\n  line-height: 75px;\n  color: rgb(59, 47, 93);\n  text-shadow: 5px 5px 0px rgb(255, 223, 135);\n  z-index: 1;\n}\n\n#nav {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  overflow: hidden;\n}\n\n#nav > h4:hover {\n  background-color: rgb(255, 223, 135);\n  cursor: pointer;\n}\n\n#overlay {\n  min-height: 100vh;\n  width: 100vw;\n  padding-top: 70px;\n  padding-bottom: 100px;\n  background-color: rgba(241, 180, 196, 0.0);\n}\n\n#overlay-container {\n  scroll-behavior: smooth;\n  min-height: 100vh;\n  width: 100vw;\n  /* background-color: rgba(241, 180, 196, 0.75); */\n  background-color: rgba(241, 180, 196, 0.0);\n  position: relative;\n  z-index: 6;\n  transition: transform .5s;\n}\n\n#other-info {\n  margin-right: 50px;\n}\n\n#other-info > p {\n  line-height: 35px;\n  font-size: 18px;\n  color: rgb(59, 47, 93);\n  font-family: 'Montserrat-Regular';\n}", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"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","sourcesContent":["/* Fonts */\n@font-face {\n  font-family: 'UnicaOne-Regular';\n  src: url('/src/fonts/UnicaOne-Regular.ttf');\n}\n\n@font-face {\n  font-family: 'Montserrat-Regular';\n  src: url('/src/fonts/Montserrat-Regular.ttf');\n}\n\n@font-face {\n  font-family: 'Montserrat-Bold';\n  src: url('/src/fonts/Montserrat-Bold.ttf');\n}\n\n/* page elements */\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nhtml {\n  min-height: 100vh;\n}\n\nbody {\n  min-height: 100vh;\n}\n\nh4 {\n  padding: 24px 90px;\n  font-family: 'Montserrat-Regular';\n  font-size: 18px;\n  letter-spacing: 2px;\n  color: rgb(59, 47, 93);\n}\n\nh3 {\n  padding-bottom: 20px;\n}\n\nh2 {\n  font-family: 'UnicaOne-Regular';\n  font-size: 48px;\n  color: rgb(59, 47, 93);\n}\n\na {\n  line-height: 35px;\n  font-size: 18px;\n  color: rgb(239, 170, 187);\n  font-family: 'Montserrat-Regular';\n  text-decoration: none;\n}\n\na:hover {\n  color: rgb(255, 223, 135);\n}\n\np {\n  font-family: 'Montserrat-Regular';\n  font-size: 16px;\n  line-height: 25px;\n  color: rgb(59, 47, 93);\n}\n\n/* classes alphabetically */\n.about-div {\n  width: 50vw;\n}\n\n.about-div > h2 {\n  padding-bottom: 50px;\n}\n\n.active {\n  text-shadow: 2px 2px 0px rgb(255, 223, 135);\n}\n\n.background-img {\n  height: 100vh;\n  width: 100vw;\n  background-image: url('/src/imgs/mike-dorner-sf_1ZDA1YFw-unsplash.jpg');\n  background-repeat: no-repeat;\n  background-size: cover;\n  position: fixed;\n  top: 0;\n  left: 0;\n  /* z-index: 1; */\n}\n\n.card {\n  height: 400px;\n  width: 800px;\n  display: flex;\n  flex-direction: row;\n  margin: 20px;\n  background-color: rgb(251, 228, 235);\n  /* rgba(255, 255, 255, 0.6); */\n  z-index: 9;\n  opacity: 1;\n  transition: opacity .5s;\n  position: relative;\n}\n\n.card > img {\n  height: 400px;\n  position: absolute;\n  top: 0;\n  right: 0;\n  /* width: 50px; */\n}\n\n.img { \n  width: 318px;\n  height: 400px;\n  margin-right: 100px;\n} \n\n.price {\n  font-family: 'UnicaOne-Regular';\n  font-size: 24px;\n  padding-bottom: 30px;\n}\n\n.text {\n  padding: 50px;\n  width: 400px;\n  display: inline-block;\n  color: rgb(59, 47, 93);\n  font-family: 'UnicaOne-Regular';\n  font-size: 28px;\n}\n\n\n/* ids alphabetically */\n\n\n#about-container {\n  min-height: 100vh;\n  width: 100vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: rgba(241, 180, 196, 1);\n  z-index: 5;\n  visibility: hidden;\n  transition: opacity 1s;\n  opacity: 1;\n  position: fixed;\n  top: 40;\n  left: 0;\n}\n\n#container {\n  min-height: 100vh;\n  width: 100vw;\n  margin-top: 40px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  /* background-color: rgba(241, 180, 196, 0.99); */\n  z-index: 10;\n}\n\n#content {\n  min-height: 100vh;\n  max-width: 100vw;\n}\n\n#footer {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  flex-direction: row;\n  width: 100vw;\n  height: 140px;\n  background-color: rgba(62, 44, 88, 0.882);\n}\n\n#footer-author-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n}\n\n#footer-author-container > p {\n  line-height: 35px;\n  font-size: 18px;\n  color: #efaabb;\n  font-family: 'Montserrat-Regular';\n}\n\n#footer-author-svg {\n  background-image: url('/src/svg/github-icon.svg');\n  background-repeat: no-repeat;\n  height: 50px;\n  width: 50px;\n}\n\n#footer-nav {\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  flex-direction: column;\n  margin-left: 50px;\n}\n\n#footer-nav > p {\n  line-height: 35px;\n  font-size: 18px;\n  color: #efaabb;\n  font-family: 'Montserrat-Regular';\n  cursor: pointer;\n}\n\n#header {\n  width: 100vw;\n  height: 70px;\n  background-color: rgb(250, 197, 211);\n  position: fixed;\n  display: block;\n  top: 0;\n  left: 0;\n  z-index: 10;\n}\n\n#logo {\n  height: 200px;\n  width: 200px;\n  position: fixed; \n  top: 160px;\n  left: 400px;\n  font-family: 'UnicaOne-Regular';\n  font-size: 100px;\n  line-height: 75px;\n  color: rgb(59, 47, 93);\n  text-shadow: 5px 5px 0px rgb(255, 223, 135);\n  z-index: 1;\n}\n\n#nav {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  overflow: hidden;\n}\n\n#nav > h4:hover {\n  background-color: rgb(255, 223, 135);\n  cursor: pointer;\n}\n\n#overlay {\n  min-height: 100vh;\n  width: 100vw;\n  padding-top: 70px;\n  padding-bottom: 100px;\n  background-color: rgba(241, 180, 196, 0.0);\n}\n\n#overlay-container {\n  scroll-behavior: smooth;\n  min-height: 100vh;\n  width: 100vw;\n  /* background-color: rgba(241, 180, 196, 0.75); */\n  background-color: rgba(241, 180, 196, 0.0);\n  position: relative;\n  z-index: 6;\n  transition: transform .5s;\n}\n\n#other-info {\n  margin-right: 50px;\n}\n\n#other-info > p {\n  line-height: 35px;\n  font-size: 18px;\n  color: rgb(59, 47, 93);\n  font-family: 'Montserrat-Regular';\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -255,10 +205,10 @@ module.exports = function (url, options) {
 
 /***/ }),
 
-/***/ "./dist/style.css":
-/*!************************!*\
-  !*** ./dist/style.css ***!
-  \************************/
+/***/ "./src/style.css":
+/*!***********************!*\
+  !*** ./src/style.css ***!
+  \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -267,7 +217,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../node_modules/css-loader/dist/cjs.js!./style.css */ "./node_modules/css-loader/dist/cjs.js!./dist/style.css");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../node_modules/css-loader/dist/cjs.js!./style.css */ "./node_modules/css-loader/dist/cjs.js!./src/style.css");
 
             
 
@@ -562,6 +512,106 @@ module.exports = function (list, options) {
 
 /***/ }),
 
+/***/ "./src/fonts/Montserrat-Bold.ttf":
+/*!***************************************!*\
+  !*** ./src/fonts/Montserrat-Bold.ttf ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "079ca05d3ded9bc107ab.ttf";
+
+/***/ }),
+
+/***/ "./src/fonts/Montserrat-Regular.ttf":
+/*!******************************************!*\
+  !*** ./src/fonts/Montserrat-Regular.ttf ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "3cd786652b8a2e9d41f2.ttf";
+
+/***/ }),
+
+/***/ "./src/fonts/UnicaOne-Regular.ttf":
+/*!****************************************!*\
+  !*** ./src/fonts/UnicaOne-Regular.ttf ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "c2063fa2849e651fed6c.ttf";
+
+/***/ }),
+
+/***/ "./src/imgs/alexander-mils-w8POFpfCRP8-unsplash.png":
+/*!**********************************************************!*\
+  !*** ./src/imgs/alexander-mils-w8POFpfCRP8-unsplash.png ***!
+  \**********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "07025effcd806a2ed33a.png";
+
+/***/ }),
+
+/***/ "./src/imgs/fruit-stand2.png":
+/*!***********************************!*\
+  !*** ./src/imgs/fruit-stand2.png ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "476f11c7c15215c8d768.png";
+
+/***/ }),
+
+/***/ "./src/imgs/mike-dorner-sf_1ZDA1YFw-unsplash.jpg":
+/*!*******************************************************!*\
+  !*** ./src/imgs/mike-dorner-sf_1ZDA1YFw-unsplash.jpg ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "77ff416c34f2954ba741.jpg";
+
+/***/ }),
+
+/***/ "./src/imgs/sara-julie-9Gz5bMWdGYE-unsplash.png":
+/*!******************************************************!*\
+  !*** ./src/imgs/sara-julie-9Gz5bMWdGYE-unsplash.png ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "72d6d702cb33ca48638c.png";
+
+/***/ }),
+
+/***/ "./src/imgs/sebastian-coman-photography-rwBJaJdesGg-unsplash.png":
+/*!***********************************************************************!*\
+  !*** ./src/imgs/sebastian-coman-photography-rwBJaJdesGg-unsplash.png ***!
+  \***********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "7cfc0e4b5b10d93a2e77.png";
+
+/***/ }),
+
+/***/ "./src/imgs/usman-yousaf-DaxUJPNxALs-unsplash.png":
+/*!********************************************************!*\
+  !*** ./src/imgs/usman-yousaf-DaxUJPNxALs-unsplash.png ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "39b39ee122e55b2697bf.png";
+
+/***/ }),
+
+/***/ "./src/imgs/victor-rutka-4FujjkcI40g-unsplash.png":
+/*!********************************************************!*\
+  !*** ./src/imgs/victor-rutka-4FujjkcI40g-unsplash.png ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "e1c8ef1884b35a85e626.png";
+
+/***/ }),
+
 /***/ "./src/modules/about.js":
 /*!******************************!*\
   !*** ./src/modules/about.js ***!
@@ -574,7 +624,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ "./src/modules/home.js");
 
-
+const url = __webpack_require__(/*! ../imgs/fruit-stand2.png */ "./src/imgs/fruit-stand2.png");
+ 
 const createAbout = (e) => {
 
   const overlay = document.getElementById('overlay');
@@ -596,7 +647,7 @@ const createAbout = (e) => {
   
   const img = document.createElement('img');
   img.setAttribute('class', 'img');
-  img.src = '/imgs/fruit-stand2.png';
+  img.src = url;
   
   aboutDiv.appendChild(h2);
   aboutDiv.appendChild(p);
@@ -710,7 +761,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "pageLoad": () => (/* binding */ pageLoad)
 /* harmony export */ });
-/* harmony import */ var _dist_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../dist/style.css */ "./dist/style.css");
+/* harmony import */ var _src_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../src/style.css */ "./src/style.css");
 /* harmony import */ var _nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./nav */ "./src/modules/nav.js");
 /* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu */ "./src/modules/menu.js");
 /* harmony import */ var _about__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./about */ "./src/modules/about.js");
@@ -729,7 +780,7 @@ const createHeader = () => {
   return header;
 };
 
-const createOverlay= () => {
+const createOverlay= (content) => {
   const overlayContainer = document.createElement('div');
   overlayContainer.setAttribute('id', 'overlay-container');
 
@@ -807,14 +858,16 @@ const createLogo = () => {
 
 const pageLoad = () => {
 
-  const content = document.getElementById('content');
+  const content = document.createElement('div');
+  content.setAttribute('id', 'content');
+  document.body.appendChild(content);
 
-  const header = createHeader();
-  const overlay = createOverlay();
-  const nav = (0,_nav__WEBPACK_IMPORTED_MODULE_1__.createNav)();
-  const logo = createLogo();
-  const image = createBackgroundImage();
-  const footer = createFooter();
+  const header = createHeader(content);
+  const overlay = createOverlay(content);
+  const nav = (0,_nav__WEBPACK_IMPORTED_MODULE_1__.createNav)(content);
+  const logo = createLogo(content);
+  const image = createBackgroundImage(content);
+  const footer = createFooter(content);
 
   header.appendChild(nav);
   overlay.appendChild(footer);
@@ -839,83 +892,104 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "createMenu": () => (/* binding */ createMenu)
 /* harmony export */ });
-/* harmony import */ var _dist_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../dist/style.css */ "./dist/style.css");
+/* harmony import */ var _src_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../src/style.css */ "./src/style.css");
 /* harmony import */ var _nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./nav */ "./src/modules/nav.js");
 /* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home */ "./src/modules/home.js");
 
 
 
+const fantastic = __webpack_require__(/*! ../imgs/sara-julie-9Gz5bMWdGYE-unsplash.png */ "./src/imgs/sara-julie-9Gz5bMWdGYE-unsplash.png");
+const fatMaker = __webpack_require__(/*! ../imgs/usman-yousaf-DaxUJPNxALs-unsplash.png */ "./src/imgs/usman-yousaf-DaxUJPNxALs-unsplash.png");
+const frothyGoodness = __webpack_require__(/*! ../imgs/alexander-mils-w8POFpfCRP8-unsplash.png */ "./src/imgs/alexander-mils-w8POFpfCRP8-unsplash.png");
+const fruttiTutti = __webpack_require__(/*! ../imgs/sebastian-coman-photography-rwBJaJdesGg-unsplash.png */ "./src/imgs/sebastian-coman-photography-rwBJaJdesGg-unsplash.png");
+const fruitStandSpecial = __webpack_require__(/*! ../imgs/victor-rutka-4FujjkcI40g-unsplash.png */ "./src/imgs/victor-rutka-4FujjkcI40g-unsplash.png");
 
 // Main card constructor
 class MenuCard {
-  constructor (title, description, image, price) {
+  constructor(title, description, image, price) {
     this.title = title;
     this.description = description;
-    this.image = image; // img size should be 400px x 400px;
+    this.image = image; // img size should be height:400px x width:400px;
     this.price = price;
   }
 }
 
+// class MenuItems {
+//   constructor() {
+//     this.menuItems = [];
+//   };
+
+//   newItem(title, description, image, price) {
+//     let item = new MenuCard(title, description, image, price);
+//     this.menuItems.push(item);
+//     return item;
+//   };
+
+//   get allMenuItems() {
+//     return this.menuItems;
+//   };
+// }
+
 //database of all menu items as new MenuCards
-const fruitShake = new MenuCard (
-  'fantastic fruit shake',
-  'Huge chunks of fruit, superfoods, and other goodies, blended together',
-  './imgs/sara-julie-9Gz5bMWdGYE-unsplash.png',
-  '$14'
-);
+const menuItems = [
+  new MenuCard(
+    'fantastic fruit shake',
+    'Huge chunks of fruit, superfoods, and other goodies, blended together',
+    fantastic,
+    '$14'
+  ),
 
-const fruitShake1 = new MenuCard(
-  'fat maker',
-  'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna condimentum mattis pellentesque id nibh tortor id. Praesent elementum facilisis',
-  './imgs/usman-yousaf-DaxUJPNxALs-unsplash.png',
-  '$20'
-);
+  new MenuCard(
+    'fat maker',
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna condimentum mattis pellentesque id nibh tortor id. Praesent elementum facilisis',
+    fatMaker,
+    '$20'
+  ),
 
-const fruitShake2 = new MenuCard (
-  'frothy goodness',
-  'Massa id neque aliquam vestibulum morbi blandit cursus. Elit sed vulputate mi sit.',
-  './imgs/alexander-mils-w8POFpfCRP8-unsplash.png',
-  '$16'
-);
+  new MenuCard(
+    'frothy goodness',
+    'Massa id neque aliquam vestibulum morbi blandit cursus. Elit sed vulputate mi sit.',
+    frothyGoodness,
+    '$16'
+  ),
 
-const fruitShake3 = new MenuCard (
-  'frutti tutti',
-  'Tortor at auctor urna nunc id cursus metus aliquam. Quis eleifend quam adipiscing vitae. Urna molestie at elementum eu facilisis sed odio',
-  './imgs/sebastian-coman-photography-rwBJaJdesGg-unsplash.png',
-  '$18'
-);
+  new MenuCard(
+    'frutti tutti',
+    'Tortor at auctor urna nunc id cursus metus aliquam. Quis eleifend quam adipiscing vitae. Urna molestie at elementum eu facilisis sed odio',
+    fruttiTutti,
+    '$18'
+  ),
 
-const fruitShake4 = new MenuCard (
-  'fruit stand special',
-  'It\'s a surprise!',
-  './imgs/victor-rutka-4FujjkcI40g-unsplash.png',
-  '$14'
-);
+  new MenuCard(
+    'fruit stand special',
+    "It's a surprise!",
+    fruitStandSpecial,
+    '$14'
+  ),
+];
 
 const overlayAnimate = (card, index, container, overlay, overlayContainer) => {
-  setTimeout(function() {
+  setTimeout(function () {
     overlayContainer.style.transform = 'translateY(0px)';
     overlay.style.backgroundColor = 'rgba(241, 180, 196, 0.75)';
     renderCard(card, container, index);
   }, 200);
-  
 };
 
 const overlaySet = (card, index, container, overlay, overlayContainer) => {
-  overlay.style.backgroundColor = 'rgba(241, 180, 196, 0.0)'
+  overlay.style.backgroundColor = 'rgba(241, 180, 196, 0.0)';
   overlayContainer.style.transform = 'translateY(800px)';
   overlayAnimate(card, index, container, overlay, overlayContainer);
 };
 
 const renderCard = (card, container, index) => {
-
   const menuItem = document.createElement('div');
   menuItem.setAttribute('data-index', index);
   menuItem.setAttribute('id', `card${index}`);
   menuItem.setAttribute('class', 'card');
 
   const textDiv = document.createElement('div');
-  textDiv.setAttribute('class', 'text')
+  textDiv.setAttribute('class', 'text');
 
   const img = document.createElement('img');
   img.src = card.image;
@@ -946,32 +1020,21 @@ const createMenu = (e) => {
   }
 
   (0,_home__WEBPACK_IMPORTED_MODULE_2__.resetPage)(e);
+  (0,_nav__WEBPACK_IMPORTED_MODULE_1__.updateNav)(e);
 
   const overlay = document.getElementById('overlay');
-  // if (document.getElementById('big-div')) {
-  //   while(overlay.firstElementChild) {
-  //     console.log(overlay.firstElementChild)
-  //     overlay.firstElementChild.remove();
-  //   };
-  // };
-
-  (0,_nav__WEBPACK_IMPORTED_MODULE_1__.updateNav)(e);
-  
   const overlayContainer = document.getElementById('overlay-container');
-  const container = document.createElement('div');
 
-  
+  const container = document.createElement('div');
   container.setAttribute('id', 'container');
 
   overlay.appendChild(container);
 
-  cardItems.forEach((card, index) =>
+  menuItems.forEach((card, index) =>
     overlaySet(card, index, container, overlay, overlayContainer)
   );
 };
 
-//items put in array to help create cards for menu
-const cardItems = [fruitShake, fruitShake1, fruitShake2, fruitShake3, fruitShake4];
 
 
 
@@ -1046,6 +1109,16 @@ const updateNav = (e) => {
 };
 
 
+
+/***/ }),
+
+/***/ "./src/svg/github-icon.svg":
+/*!*********************************!*\
+  !*** ./src/svg/github-icon.svg ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "3f91b5bc2a2377afd544.svg";
 
 /***/ })
 
@@ -1161,6 +1234,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const init = () => {
+  // const content = document.createElement('div');
   (0,_modules_initial_load__WEBPACK_IMPORTED_MODULE_0__.pageLoad)()
 };
 
