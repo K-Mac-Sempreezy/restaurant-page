@@ -39,7 +39,7 @@ var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_g
 var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_imgs_mike_dorner_sf_1ZDA1YFw_unsplash_jpg__WEBPACK_IMPORTED_MODULE_6__);
 var ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_svg_github_icon_svg__WEBPACK_IMPORTED_MODULE_7__);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/* Fonts */\n@font-face {\n  font-family: 'UnicaOne-Regular';\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\n@font-face {\n  font-family: 'Montserrat-Regular';\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n\n@font-face {\n  font-family: 'Montserrat-Bold';\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n}\n\n/* page elements */\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nhtml {\n  min-height: 100vh;\n}\n\nbody {\n  min-height: 100vh;\n}\n\nh4 {\n  padding: 24px 90px;\n  font-family: 'Montserrat-Regular';\n  font-size: 18px;\n  letter-spacing: 2px;\n  color: rgb(59, 47, 93);\n}\n\nh3 {\n  padding-bottom: 20px;\n}\n\nh2 {\n  font-family: 'UnicaOne-Regular';\n  font-size: 48px;\n  color: rgb(59, 47, 93);\n}\n\na {\n  line-height: 35px;\n  font-size: 18px;\n  color: rgb(239, 170, 187);\n  font-family: 'Montserrat-Regular';\n  text-decoration: none;\n}\n\na:hover {\n  color: rgb(255, 223, 135);\n}\n\np {\n  font-family: 'Montserrat-Regular';\n  font-size: 16px;\n  line-height: 25px;\n  color: rgb(59, 47, 93);\n}\n\n/* classes alphabetically */\n.about-div {\n  width: 50vw;\n}\n\n.about-div > h2 {\n  padding-bottom: 50px;\n}\n\n.active {\n  text-shadow: 2px 2px 0px rgb(255, 223, 135);\n}\n\n.background-img {\n  height: 100vh;\n  width: 100vw;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n  position: fixed;\n  top: 0;\n  left: 0;\n  /* z-index: 1; */\n}\n\n.card {\n  height: 400px;\n  width: 800px;\n  display: flex;\n  flex-direction: row;\n  margin: 20px;\n  background-color: rgb(251, 228, 235);\n  /* rgba(255, 255, 255, 0.6); */\n  z-index: 9;\n  opacity: 1;\n  transition: opacity .5s;\n  position: relative;\n}\n\n.card > img {\n  height: 400px;\n  position: absolute;\n  top: 0;\n  right: 0;\n  /* width: 50px; */\n}\n\n.img { \n  width: 318px;\n  height: 400px;\n  margin-right: 100px;\n} \n\n.price {\n  font-family: 'UnicaOne-Regular';\n  font-size: 24px;\n  padding-bottom: 30px;\n}\n\n.text {\n  padding: 50px;\n  width: 400px;\n  display: inline-block;\n  color: rgb(59, 47, 93);\n  font-family: 'UnicaOne-Regular';\n  font-size: 28px;\n}\n\n\n/* ids alphabetically */\n\n\n#about-container {\n  min-height: 100vh;\n  width: 100vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: rgba(241, 180, 196, 1);\n  z-index: 5;\n  visibility: hidden;\n  transition: opacity 1s;\n  opacity: 1;\n  position: fixed;\n  top: 40;\n  left: 0;\n}\n\n#container {\n  min-height: 100vh;\n  width: 100vw;\n  margin-top: 40px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  /* background-color: rgba(241, 180, 196, 0.99); */\n  z-index: 10;\n}\n\n#content {\n  min-height: 100vh;\n  max-width: 100vw;\n}\n\n#footer {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  flex-direction: row;\n  width: 100vw;\n  height: 140px;\n  background-color: rgba(62, 44, 88, 0.882);\n}\n\n#footer-author-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n}\n\n#footer-author-container > p {\n  line-height: 35px;\n  font-size: 18px;\n  color: #efaabb;\n  font-family: 'Montserrat-Regular';\n}\n\n#footer-author-svg {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ");\n  background-repeat: no-repeat;\n  height: 50px;\n  width: 50px;\n}\n\n#footer-nav {\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  flex-direction: column;\n  margin-left: 50px;\n}\n\n#footer-nav > p {\n  line-height: 35px;\n  font-size: 18px;\n  color: #efaabb;\n  font-family: 'Montserrat-Regular';\n  cursor: pointer;\n}\n\n#header {\n  width: 100vw;\n  height: 70px;\n  background-color: rgb(250, 197, 211);\n  position: fixed;\n  display: block;\n  top: 0;\n  left: 0;\n  z-index: 10;\n}\n\n#logo {\n  height: 200px;\n  width: 200px;\n  position: fixed; \n  top: 160px;\n  left: 400px;\n  font-family: 'UnicaOne-Regular';\n  font-size: 100px;\n  line-height: 75px;\n  color: rgb(59, 47, 93);\n  text-shadow: 5px 5px 0px rgb(255, 223, 135);\n  z-index: 1;\n}\n\n#nav {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  overflow: hidden;\n}\n\n#nav > h4:hover {\n  background-color: rgb(255, 223, 135);\n  cursor: pointer;\n}\n\n#overlay {\n  min-height: 100vh;\n  width: 100vw;\n  padding-top: 70px;\n  padding-bottom: 100px;\n  background-color: rgba(241, 180, 196, 0.0);\n}\n\n#overlay-container {\n  scroll-behavior: smooth;\n  min-height: 100vh;\n  width: 100vw;\n  /* background-color: rgba(241, 180, 196, 0.75); */\n  background-color: rgba(241, 180, 196, 0.0);\n  position: relative;\n  z-index: 6;\n  transition: transform .5s;\n}\n\n#other-info {\n  margin-right: 50px;\n}\n\n#other-info > p {\n  line-height: 35px;\n  font-size: 18px;\n  color: rgb(59, 47, 93);\n  font-family: 'Montserrat-Regular';\n}", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"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","sourcesContent":["/* Fonts */\n@font-face {\n  font-family: 'UnicaOne-Regular';\n  src: url('/src/fonts/UnicaOne-Regular.ttf');\n}\n\n@font-face {\n  font-family: 'Montserrat-Regular';\n  src: url('/src/fonts/Montserrat-Regular.ttf');\n}\n\n@font-face {\n  font-family: 'Montserrat-Bold';\n  src: url('/src/fonts/Montserrat-Bold.ttf');\n}\n\n/* page elements */\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nhtml {\n  min-height: 100vh;\n}\n\nbody {\n  min-height: 100vh;\n}\n\nh4 {\n  padding: 24px 90px;\n  font-family: 'Montserrat-Regular';\n  font-size: 18px;\n  letter-spacing: 2px;\n  color: rgb(59, 47, 93);\n}\n\nh3 {\n  padding-bottom: 20px;\n}\n\nh2 {\n  font-family: 'UnicaOne-Regular';\n  font-size: 48px;\n  color: rgb(59, 47, 93);\n}\n\na {\n  line-height: 35px;\n  font-size: 18px;\n  color: rgb(239, 170, 187);\n  font-family: 'Montserrat-Regular';\n  text-decoration: none;\n}\n\na:hover {\n  color: rgb(255, 223, 135);\n}\n\np {\n  font-family: 'Montserrat-Regular';\n  font-size: 16px;\n  line-height: 25px;\n  color: rgb(59, 47, 93);\n}\n\n/* classes alphabetically */\n.about-div {\n  width: 50vw;\n}\n\n.about-div > h2 {\n  padding-bottom: 50px;\n}\n\n.active {\n  text-shadow: 2px 2px 0px rgb(255, 223, 135);\n}\n\n.background-img {\n  height: 100vh;\n  width: 100vw;\n  background-image: url('/src/imgs/mike-dorner-sf_1ZDA1YFw-unsplash.jpg');\n  background-repeat: no-repeat;\n  background-size: cover;\n  position: fixed;\n  top: 0;\n  left: 0;\n  /* z-index: 1; */\n}\n\n.card {\n  height: 400px;\n  width: 800px;\n  display: flex;\n  flex-direction: row;\n  margin: 20px;\n  background-color: rgb(251, 228, 235);\n  /* rgba(255, 255, 255, 0.6); */\n  z-index: 9;\n  opacity: 1;\n  transition: opacity .5s;\n  position: relative;\n}\n\n.card > img {\n  height: 400px;\n  position: absolute;\n  top: 0;\n  right: 0;\n  /* width: 50px; */\n}\n\n.img { \n  width: 318px;\n  height: 400px;\n  margin-right: 100px;\n} \n\n.price {\n  font-family: 'UnicaOne-Regular';\n  font-size: 24px;\n  padding-bottom: 30px;\n}\n\n.text {\n  padding: 50px;\n  width: 400px;\n  display: inline-block;\n  color: rgb(59, 47, 93);\n  font-family: 'UnicaOne-Regular';\n  font-size: 28px;\n}\n\n\n/* ids alphabetically */\n\n\n#about-container {\n  min-height: 100vh;\n  width: 100vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: rgba(241, 180, 196, 1);\n  z-index: 5;\n  visibility: hidden;\n  transition: opacity 1s;\n  opacity: 1;\n  position: fixed;\n  top: 40;\n  left: 0;\n}\n\n#container {\n  min-height: 100vh;\n  width: 100vw;\n  margin-top: 40px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  /* background-color: rgba(241, 180, 196, 0.99); */\n  z-index: 10;\n}\n\n#content {\n  min-height: 100vh;\n  max-width: 100vw;\n}\n\n#footer {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  flex-direction: row;\n  width: 100vw;\n  height: 140px;\n  background-color: rgba(62, 44, 88, 0.882);\n}\n\n#footer-author-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n}\n\n#footer-author-container > p {\n  line-height: 35px;\n  font-size: 18px;\n  color: #efaabb;\n  font-family: 'Montserrat-Regular';\n}\n\n#footer-author-svg {\n  background-image: url('/src/svg/github-icon.svg');\n  background-repeat: no-repeat;\n  height: 50px;\n  width: 50px;\n}\n\n#footer-nav {\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  flex-direction: column;\n  margin-left: 50px;\n}\n\n#footer-nav > p {\n  line-height: 35px;\n  font-size: 18px;\n  color: #efaabb;\n  font-family: 'Montserrat-Regular';\n  cursor: pointer;\n}\n\n#header {\n  width: 100vw;\n  height: 70px;\n  background-color: rgb(250, 197, 211);\n  position: fixed;\n  display: block;\n  top: 0;\n  left: 0;\n  z-index: 10;\n}\n\n#logo {\n  height: 200px;\n  width: 200px;\n  position: fixed; \n  top: 160px;\n  left: 400px;\n  font-family: 'UnicaOne-Regular';\n  font-size: 100px;\n  line-height: 75px;\n  color: rgb(59, 47, 93);\n  text-shadow: 5px 5px 0px rgb(255, 223, 135);\n  z-index: 1;\n}\n\n#nav {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  overflow: hidden;\n}\n\n#nav > h4:hover {\n  background-color: rgb(255, 223, 135);\n  cursor: pointer;\n}\n\n#overlay {\n  min-height: 100vh;\n  width: 100vw;\n  padding-top: 70px;\n  padding-bottom: 100px;\n  background-color: rgba(241, 180, 196, 0.0);\n}\n\n#overlay-container {\n  scroll-behavior: smooth;\n  min-height: 100vh;\n  width: 100vw;\n  /* background-color: rgba(241, 180, 196, 0.75); */\n  background-color: rgba(241, 180, 196, 0.0);\n  position: relative;\n  z-index: 6;\n  transition: transform .5s;\n}\n\n#other-info {\n  margin-right: 50px;\n}\n\n#other-info > p {\n  line-height: 35px;\n  font-size: 18px;\n  color: rgb(59, 47, 93);\n  font-family: 'Montserrat-Regular';\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "/* Fonts */\n@font-face {\n  font-family: 'UnicaOne-Regular';\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\n@font-face {\n  font-family: 'Montserrat-Regular';\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n\n@font-face {\n  font-family: 'Montserrat-Bold';\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n}\n\n/* page elements */\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nhtml {\n  min-height: 100vh;\n}\n\nbody {\n  min-height: 100vh;\n}\n\nh4 {\n  padding: 24px 90px;\n  font-family: 'Montserrat-Regular';\n  font-size: 18px;\n  letter-spacing: 2px;\n  color: rgb(59, 47, 93);\n}\n\nh3 {\n  padding-bottom: 20px;\n}\n\nh2 {\n  font-family: 'UnicaOne-Regular';\n  font-size: 48px;\n  color: rgb(59, 47, 93);\n}\n\na {\n  line-height: 35px;\n  font-size: 18px;\n  color: rgb(239, 170, 187);\n  font-family: 'Montserrat-Regular';\n  text-decoration: none;\n}\n\na:hover {\n  color: rgb(255, 223, 135);\n}\n\np {\n  font-family: 'Montserrat-Regular';\n  font-size: 16px;\n  line-height: 25px;\n  color: rgb(59, 47, 93);\n}\n\n/* classes alphabetically */\n.about-div {\n  width: 50vw;\n}\n\n.about-div > h2 {\n  padding-bottom: 50px;\n}\n\n.active {\n  text-shadow: 2px 2px 0px rgb(255, 223, 135);\n}\n\n.background-img {\n  height: 100vh;\n  width: 100vw;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n  position: fixed;\n  top: 0;\n  left: 0;\n  /* z-index: 1; */\n}\n\n.card {\n  height: 400px;\n  width: 800px;\n  display: flex;\n  flex-direction: row;\n  margin: 20px;\n  background-color: rgb(251, 228, 235);\n  /* rgba(255, 255, 255, 0.6); */\n  z-index: 9;\n  opacity: 1;\n  transition: opacity .5s;\n  position: relative;\n}\n\n.card > img {\n  height: 400px;\n  position: absolute;\n  top: 0;\n  right: 0;\n  /* width: 50px; */\n}\n\n.img { \n  width: 318px;\n  height: 400px;\n  margin-right: 100px;\n} \n\n.price {\n  font-family: 'UnicaOne-Regular';\n  font-size: 24px;\n  padding-bottom: 30px;\n}\n\n.text {\n  padding: 50px;\n  width: 400px;\n  display: inline-block;\n  color: rgb(59, 47, 93);\n  font-family: 'UnicaOne-Regular';\n  font-size: 28px;\n}\n\n\n/* ids alphabetically */\n\n\n#about-container {\n  min-height: 100vh;\n  width: 100vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: rgba(241, 180, 196, 1);\n  z-index: 5;\n  visibility: hidden;\n  transition: opacity 1s;\n  opacity: 1;\n  position: fixed;\n  top: 40;\n  left: 0;\n}\n\n#container {\n  min-height: 100vh;\n  width: 100vw;\n  margin-top: 40px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  /* background-color: rgba(241, 180, 196, 0.99); */\n  z-index: 10;\n}\n\n#content {\n  min-height: 100vh;\n  max-width: 100vw;\n}\n\n#footer {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  flex-direction: row;\n  width: 100vw;\n  height: 140px;\n  background-color: rgba(62, 44, 88, 0.882);\n}\n\n#footer-author-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n}\n\n#footer-author-container > p {\n  line-height: 35px;\n  font-size: 18px;\n  color: #efaabb;\n  font-family: 'Montserrat-Regular';\n}\n\n#footer-author-svg {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ");\n  background-repeat: no-repeat;\n  height: 50px;\n  width: 50px;\n}\n\n#footer-nav {\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  flex-direction: column;\n  margin-left: 50px;\n}\n\n#footer-nav > p {\n  line-height: 35px;\n  font-size: 18px;\n  color: #efaabb;\n  font-family: 'Montserrat-Regular';\n  cursor: pointer;\n}\n\n#header {\n  width: 100vw;\n  height: 70px;\n  background-color: rgb(250, 197, 211);\n  position: fixed;\n  display: block;\n  top: 0;\n  left: 0;\n  z-index: 10;\n}\n\n#logo {\n  height: 200px;\n  width: 200px;\n  position: fixed; \n  top: 160px;\n  left: 400px;\n  font-family: 'UnicaOne-Regular';\n  font-size: 100px;\n  line-height: 75px;\n  color: rgb(59, 47, 93);\n  text-shadow: 5px 5px 0px rgb(255, 223, 135);\n  z-index: 1;\n}\n\n#nav {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  overflow: hidden;\n}\n\n#nav > h4:hover {\n  background-color: rgb(255, 223, 135);\n  cursor: pointer;\n}\n\n#overlay {\n  min-height: 100vh;\n  width: 100vw;\n  padding-top: 70px;\n  padding-bottom: 100px;\n  background-color: rgba(241, 180, 196, 0.0);\n}\n\n#overlay-container {\n  scroll-behavior: smooth;\n  min-height: 100vh;\n  width: 100vw;\n  /* background-color: rgba(241, 180, 196, 0.75); */\n  background-color: rgba(241, 180, 196, 0.0);\n  position: relative;\n  z-index: 6;\n  transition: transform .4s ease-in-out;\n}\n\n#other-info {\n  margin-right: 50px;\n}\n\n#other-info > p {\n  line-height: 35px;\n  font-size: 18px;\n  color: rgb(59, 47, 93);\n  font-family: 'Montserrat-Regular';\n}", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"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","sourcesContent":["/* Fonts */\n@font-face {\n  font-family: 'UnicaOne-Regular';\n  src: url('/src/fonts/UnicaOne-Regular.ttf');\n}\n\n@font-face {\n  font-family: 'Montserrat-Regular';\n  src: url('/src/fonts/Montserrat-Regular.ttf');\n}\n\n@font-face {\n  font-family: 'Montserrat-Bold';\n  src: url('/src/fonts/Montserrat-Bold.ttf');\n}\n\n/* page elements */\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nhtml {\n  min-height: 100vh;\n}\n\nbody {\n  min-height: 100vh;\n}\n\nh4 {\n  padding: 24px 90px;\n  font-family: 'Montserrat-Regular';\n  font-size: 18px;\n  letter-spacing: 2px;\n  color: rgb(59, 47, 93);\n}\n\nh3 {\n  padding-bottom: 20px;\n}\n\nh2 {\n  font-family: 'UnicaOne-Regular';\n  font-size: 48px;\n  color: rgb(59, 47, 93);\n}\n\na {\n  line-height: 35px;\n  font-size: 18px;\n  color: rgb(239, 170, 187);\n  font-family: 'Montserrat-Regular';\n  text-decoration: none;\n}\n\na:hover {\n  color: rgb(255, 223, 135);\n}\n\np {\n  font-family: 'Montserrat-Regular';\n  font-size: 16px;\n  line-height: 25px;\n  color: rgb(59, 47, 93);\n}\n\n/* classes alphabetically */\n.about-div {\n  width: 50vw;\n}\n\n.about-div > h2 {\n  padding-bottom: 50px;\n}\n\n.active {\n  text-shadow: 2px 2px 0px rgb(255, 223, 135);\n}\n\n.background-img {\n  height: 100vh;\n  width: 100vw;\n  background-image: url('/src/imgs/mike-dorner-sf_1ZDA1YFw-unsplash.jpg');\n  background-repeat: no-repeat;\n  background-size: cover;\n  position: fixed;\n  top: 0;\n  left: 0;\n  /* z-index: 1; */\n}\n\n.card {\n  height: 400px;\n  width: 800px;\n  display: flex;\n  flex-direction: row;\n  margin: 20px;\n  background-color: rgb(251, 228, 235);\n  /* rgba(255, 255, 255, 0.6); */\n  z-index: 9;\n  opacity: 1;\n  transition: opacity .5s;\n  position: relative;\n}\n\n.card > img {\n  height: 400px;\n  position: absolute;\n  top: 0;\n  right: 0;\n  /* width: 50px; */\n}\n\n.img { \n  width: 318px;\n  height: 400px;\n  margin-right: 100px;\n} \n\n.price {\n  font-family: 'UnicaOne-Regular';\n  font-size: 24px;\n  padding-bottom: 30px;\n}\n\n.text {\n  padding: 50px;\n  width: 400px;\n  display: inline-block;\n  color: rgb(59, 47, 93);\n  font-family: 'UnicaOne-Regular';\n  font-size: 28px;\n}\n\n\n/* ids alphabetically */\n\n\n#about-container {\n  min-height: 100vh;\n  width: 100vw;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background-color: rgba(241, 180, 196, 1);\n  z-index: 5;\n  visibility: hidden;\n  transition: opacity 1s;\n  opacity: 1;\n  position: fixed;\n  top: 40;\n  left: 0;\n}\n\n#container {\n  min-height: 100vh;\n  width: 100vw;\n  margin-top: 40px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  /* background-color: rgba(241, 180, 196, 0.99); */\n  z-index: 10;\n}\n\n#content {\n  min-height: 100vh;\n  max-width: 100vw;\n}\n\n#footer {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  flex-direction: row;\n  width: 100vw;\n  height: 140px;\n  background-color: rgba(62, 44, 88, 0.882);\n}\n\n#footer-author-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n}\n\n#footer-author-container > p {\n  line-height: 35px;\n  font-size: 18px;\n  color: #efaabb;\n  font-family: 'Montserrat-Regular';\n}\n\n#footer-author-svg {\n  background-image: url('/src/svg/github-icon.svg');\n  background-repeat: no-repeat;\n  height: 50px;\n  width: 50px;\n}\n\n#footer-nav {\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  flex-direction: column;\n  margin-left: 50px;\n}\n\n#footer-nav > p {\n  line-height: 35px;\n  font-size: 18px;\n  color: #efaabb;\n  font-family: 'Montserrat-Regular';\n  cursor: pointer;\n}\n\n#header {\n  width: 100vw;\n  height: 70px;\n  background-color: rgb(250, 197, 211);\n  position: fixed;\n  display: block;\n  top: 0;\n  left: 0;\n  z-index: 10;\n}\n\n#logo {\n  height: 200px;\n  width: 200px;\n  position: fixed; \n  top: 160px;\n  left: 400px;\n  font-family: 'UnicaOne-Regular';\n  font-size: 100px;\n  line-height: 75px;\n  color: rgb(59, 47, 93);\n  text-shadow: 5px 5px 0px rgb(255, 223, 135);\n  z-index: 1;\n}\n\n#nav {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  overflow: hidden;\n}\n\n#nav > h4:hover {\n  background-color: rgb(255, 223, 135);\n  cursor: pointer;\n}\n\n#overlay {\n  min-height: 100vh;\n  width: 100vw;\n  padding-top: 70px;\n  padding-bottom: 100px;\n  background-color: rgba(241, 180, 196, 0.0);\n}\n\n#overlay-container {\n  scroll-behavior: smooth;\n  min-height: 100vh;\n  width: 100vw;\n  /* background-color: rgba(241, 180, 196, 0.75); */\n  background-color: rgba(241, 180, 196, 0.0);\n  position: relative;\n  z-index: 6;\n  transition: transform .4s ease-in-out;\n}\n\n#other-info {\n  margin-right: 50px;\n}\n\n#other-info > p {\n  line-height: 35px;\n  font-size: 18px;\n  color: rgb(59, 47, 93);\n  font-family: 'Montserrat-Regular';\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -552,6 +552,26 @@ module.exports = __webpack_require__.p + "07025effcd806a2ed33a.png";
 
 /***/ }),
 
+/***/ "./src/imgs/banana-favicon.svg":
+/*!*************************************!*\
+  !*** ./src/imgs/banana-favicon.svg ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "b51de6a0d690b510afd6.svg";
+
+/***/ }),
+
+/***/ "./src/imgs/dennis-klein-8oIo60aLztg-unsplash.png":
+/*!********************************************************!*\
+  !*** ./src/imgs/dennis-klein-8oIo60aLztg-unsplash.png ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "b82e590ca4504a5ceadd.png";
+
+/***/ }),
+
 /***/ "./src/imgs/fruit-stand2.png":
 /*!***********************************!*\
   !*** ./src/imgs/fruit-stand2.png ***!
@@ -592,16 +612,6 @@ module.exports = __webpack_require__.p + "7cfc0e4b5b10d93a2e77.png";
 
 /***/ }),
 
-/***/ "./src/imgs/usman-yousaf-DaxUJPNxALs-unsplash.png":
-/*!********************************************************!*\
-  !*** ./src/imgs/usman-yousaf-DaxUJPNxALs-unsplash.png ***!
-  \********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "39b39ee122e55b2697bf.png";
-
-/***/ }),
-
 /***/ "./src/imgs/victor-rutka-4FujjkcI40g-unsplash.png":
 /*!********************************************************!*\
   !*** ./src/imgs/victor-rutka-4FujjkcI40g-unsplash.png ***!
@@ -620,42 +630,24 @@ module.exports = __webpack_require__.p + "e1c8ef1884b35a85e626.png";
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "createAbout": () => (/* binding */ createAbout)
+/* harmony export */   "aboutPage": () => (/* binding */ aboutPage)
 /* harmony export */ });
 /* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ "./src/modules/home.js");
 
-const url = __webpack_require__(/*! ../imgs/fruit-stand2.png */ "./src/imgs/fruit-stand2.png");
- 
-const createAbout = (e) => {
 
+ 
+const aboutPage = (e) => {
+  
+  if (document.getElementById('nav-about').className === 'active') {
+    return;
+  }
+
+  const aboutContainer = document.getElementById('about-container');
+  aboutContainer.style.visibility = 'visible';
   const overlay = document.getElementById('overlay');
-  const content = document.getElementById('content');
   overlay.style.backgroundColor = 'rgba(241, 180, 196, 0.00)';
 
-  const aboutContainer = document.createElement('div');
-  aboutContainer.setAttribute('id', 'about-container');
-
-  const aboutDiv = document.createElement('div');
-  aboutDiv.setAttribute('class', 'about-div');
-
-  const h2 = document.createElement('h2');
-  h2.textContent = 'The Fruit Stand';
-  
-  const p = document.createElement('p');
-  p.textContent =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto in eaque vel assumenda, facilis ipsam. There's always money in the banana stand. Sint accusamus. Corporis accusamus repellat error animi nisi ipsam veritatis praesentium in tempore nam repellendus ipsum, suscipit perferendis fugiat!";
-  
-  const img = document.createElement('img');
-  img.setAttribute('class', 'img');
-  img.src = url;
-  
-  aboutDiv.appendChild(h2);
-  aboutDiv.appendChild(p);
-  aboutContainer.appendChild(img);
-  aboutContainer.appendChild(aboutDiv);
-  
-  content.insertBefore(aboutContainer, content.childNodes[0]);
-  (0,_home__WEBPACK_IMPORTED_MODULE_0__.resetPage)(e)
+  (0,_home__WEBPACK_IMPORTED_MODULE_0__.resetPage)(e);
 };
 
 
@@ -676,7 +668,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const resetPage = (e) => {
-  // console.log(e.target.id);
   const cards = document.querySelectorAll('.card');
   const overlay = document.getElementById('overlay');
   const overlayContainer = document.getElementById('overlay-container');
@@ -685,19 +676,20 @@ const resetPage = (e) => {
   overlayContainer.style.transform = 'translateY(1200px)';
 
   if (e.target.id === 'nav-menu' || e.target.id === 'footer-nav-menu') {
-    if (aboutContainer) {
+    if (aboutContainer.style.visibility === 'visible') {
       setTimeout(function () {
         aboutContainer.style.visibility = 'hidden';
-      }, 500);
+      }, 300);
     }
   } else if (
     e.target.id === 'nav-about' ||
     e.target.id === 'footer-nav-about'
   ) {
-    aboutContainer.style.visibility = 'visible';
     overlayReset(cards, overlay, overlayContainer);
+    aboutContainer.style.visibility = 'visible';
+
   } else if (e.target.id === 'nav-home' || e.target.id === 'footer-nav-home') {
-    if (aboutContainer) {
+    if (aboutContainer.style.visibility === 'visible') {
       aboutContainer.style.visibility = 'hidden';
     }
     overlayReset(cards, overlay, overlayContainer);
@@ -708,43 +700,31 @@ const resetPage = (e) => {
 const overlayReset = (cards, overlay, overlayContainer) => {
   if (overlay.childNodes) {
     clearMenu(cards, overlay, overlayContainer);
-    resetOverlayPosition(cards, overlay, overlayContainer);
   }
 };
 
 const clearMenu = (cards, overlay, overlayContainer) => {
+  overlayContainer.style.transform = 'translateY(2400px)';
+  overlay.style.backgroundColor = 'rgba(241, 180, 196, 0.0)';
   setTimeout(function () {
-    overlayContainer.style.transform = 'translateY(1200px)';
-    overlay.style.backgroundColor = 'rgba(241, 180, 196, 0.0)';
     cards.forEach(card => {
       card.style.opacity = '0';
     });
-  }, 200);
+    resetOverlayPosition(cards, overlay, overlayContainer);
+  }, 500);
 };
 
 const resetOverlayPosition = (cards, overlay, overlayContainer) => {
+  emptyOverlay(overlay);
   setTimeout(function () {
     overlayContainer.style.transform = 'translateY(0px)';
-    overlay.style.backgroundColor = 'rgba(241, 180, 196, 0.0)';
-    emptyOverlay(overlay);
-  }, 1000);
+  }, 100);
 };
 
 const emptyOverlay = (overlay) => {
   while(overlay.firstElementChild) {
     overlay.firstElementChild.remove();
-    overlay.style.backgroundColor = 'rgba(241, 180, 196, 0.0)';
   };
-
-  //remove container from overlay => it negatively affects footer placement
-  //set timeout to wait for other animations to finish
-  setTimeout(function () {
-    if (document.getElementById('container')) {
-      while (overlay.firstElementChild) {
-        overlay.firstElementChild.remove();
-      };
-    };
-  }, 700);
 };
 
 
@@ -764,14 +744,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _src_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../src/style.css */ "./src/style.css");
 /* harmony import */ var _nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./nav */ "./src/modules/nav.js");
 /* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu */ "./src/modules/menu.js");
-/* harmony import */ var _about__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./about */ "./src/modules/about.js");
-/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./home */ "./src/modules/home.js");
+/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./home */ "./src/modules/home.js");
 
 
 
 
 
+const bananaFaviconUrl = __webpack_require__(/*! ../imgs/banana-favicon.svg */ "./src/imgs/banana-favicon.svg");
+const fruitStandUrl = __webpack_require__(/*! ../imgs/fruit-stand2.png */ "./src/imgs/fruit-stand2.png");
 
+const createFavicon = () => {
+  const link = document.createElement('link');
+  const head = document.getElementsByTagName('head')[0];
+  link.href = bananaFaviconUrl;
+  link.type = 'image/svg';
+  link.rel = 'shortcut icon';
+  document.head.insertBefore(link, document.head.childNodes[1]);
+}
 
 const createHeader = () => {
   const header = document.createElement('header');
@@ -780,17 +769,19 @@ const createHeader = () => {
   return header;
 };
 
-const createOverlay= (content) => {
+const createOverlayContainer = () => {
   const overlayContainer = document.createElement('div');
   overlayContainer.setAttribute('id', 'overlay-container');
+
+  return overlayContainer;
+}
+
+const createOverlay= () => {
 
   const overlay = document.createElement('div');
   overlay.setAttribute('id', 'overlay');
 
-  overlayContainer.appendChild(overlay);
-  content.insertBefore(overlayContainer, content.childNodes[1]);
-
-  return overlayContainer;
+  return overlay;
 };
 
 const createFooter = () => {
@@ -802,7 +793,7 @@ const createFooter = () => {
 
   const home = document.createElement('p');
   home.setAttribute('id', 'footer-nav-home');
-  home.addEventListener('click', _home__WEBPACK_IMPORTED_MODULE_4__.resetPage);
+  home.addEventListener('click', _home__WEBPACK_IMPORTED_MODULE_3__.resetPage);
   home.textContent = 'home';
   
   const menu = document.createElement('p');
@@ -812,7 +803,7 @@ const createFooter = () => {
   
   const about = document.createElement('p');
   about.setAttribute('id', 'footer-nav-about');
-  about.addEventListener('click', _about__WEBPACK_IMPORTED_MODULE_3__.createAbout);
+  about.addEventListener('click', createAboutContainer);
   about.textContent = 'about';
 
   const authorContainer = document.createElement('div');
@@ -856,25 +847,58 @@ const createLogo = () => {
   return logo;
 };
 
-const pageLoad = () => {
+const createAboutContainer = () => {
+
+  const aboutContainer = document.createElement('div');
+  aboutContainer.setAttribute('id', 'about-container');
+
+  const aboutDiv = document.createElement('div');
+  aboutDiv.setAttribute('class', 'about-div');
+
+  const h2 = document.createElement('h2');
+  h2.textContent = 'The Fruit Stand';
+
+  const p = document.createElement('p');
+  p.textContent =
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto in eaque vel assumenda, facilis ipsam. There's always money in the banana stand. Sint accusamus. Corporis accusamus repellat error animi nisi ipsam veritatis praesentium in tempore nam repellendus ipsum, suscipit perferendis fugiat!";
+
+  const img = document.createElement('img');
+  img.setAttribute('class', 'img');
+  img.src = fruitStandUrl;
+
+  aboutDiv.appendChild(h2);
+  aboutDiv.appendChild(p);
+  aboutContainer.appendChild(img);
+  aboutContainer.appendChild(aboutDiv);
+
+  return aboutContainer;
+};
+
+const pageLoad = (e) => {
 
   const content = document.createElement('div');
   content.setAttribute('id', 'content');
   document.body.appendChild(content);
 
-  const header = createHeader(content);
-  const overlay = createOverlay(content);
-  const nav = (0,_nav__WEBPACK_IMPORTED_MODULE_1__.createNav)(content);
-  const logo = createLogo(content);
-  const image = createBackgroundImage(content);
-  const footer = createFooter(content);
+  const header = createHeader();
+  const overlayContainer = createOverlayContainer();
+  const overlay = createOverlay();
+  const nav = (0,_nav__WEBPACK_IMPORTED_MODULE_1__.createNav)();
+  const logo = createLogo();
+  const bgImage = createBackgroundImage();
+  const footer = createFooter();
+  const aboutContainer = createAboutContainer();
 
   header.appendChild(nav);
-  overlay.appendChild(footer);
-  content.appendChild(logo);
-  content.appendChild(image);
   content.appendChild(header);
-  content.appendChild(overlay);
+  content.appendChild(logo);
+  content.appendChild(bgImage);
+  overlayContainer.appendChild(overlay);
+  overlayContainer.appendChild(footer);
+  content.appendChild(overlayContainer);
+  content.insertBefore(aboutContainer, content.childNodes[1]);
+
+  createFavicon();
   
 };
 
@@ -899,7 +923,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const fantastic = __webpack_require__(/*! ../imgs/sara-julie-9Gz5bMWdGYE-unsplash.png */ "./src/imgs/sara-julie-9Gz5bMWdGYE-unsplash.png");
-const fatMaker = __webpack_require__(/*! ../imgs/usman-yousaf-DaxUJPNxALs-unsplash.png */ "./src/imgs/usman-yousaf-DaxUJPNxALs-unsplash.png");
+const fatMaker = __webpack_require__(/*! ../imgs/dennis-klein-8oIo60aLztg-unsplash.png */ "./src/imgs/dennis-klein-8oIo60aLztg-unsplash.png");
 const frothyGoodness = __webpack_require__(/*! ../imgs/alexander-mils-w8POFpfCRP8-unsplash.png */ "./src/imgs/alexander-mils-w8POFpfCRP8-unsplash.png");
 const fruttiTutti = __webpack_require__(/*! ../imgs/sebastian-coman-photography-rwBJaJdesGg-unsplash.png */ "./src/imgs/sebastian-coman-photography-rwBJaJdesGg-unsplash.png");
 const fruitStandSpecial = __webpack_require__(/*! ../imgs/victor-rutka-4FujjkcI40g-unsplash.png */ "./src/imgs/victor-rutka-4FujjkcI40g-unsplash.png");
@@ -914,19 +938,19 @@ class MenuCard {
   }
 }
 
-// class MenuItems {
+// class Menu {
 //   constructor() {
-//     this.menuItems = [];
+//     this.menu = [];
 //   };
 
 //   newItem(title, description, image, price) {
 //     let item = new MenuCard(title, description, image, price);
-//     this.menuItems.push(item);
+//     this.menu.push(item);
 //     return item;
 //   };
 
 //   get allMenuItems() {
-//     return this.menuItems;
+//     return this.menu;
 //   };
 // }
 
@@ -1011,22 +1035,23 @@ const renderCard = (card, container, index) => {
   menuItem.append(img);
 
   container.appendChild(menuItem);
-  // overlayAnimate()
 };
 
 const createMenu = (e) => {
   if (document.getElementById('container')) {
     return;
   }
-
   (0,_home__WEBPACK_IMPORTED_MODULE_2__.resetPage)(e);
-  (0,_nav__WEBPACK_IMPORTED_MODULE_1__.updateNav)(e);
+  
+  const container = document.createElement('div');
+  container.setAttribute('id', 'container');
 
   const overlay = document.getElementById('overlay');
   const overlayContainer = document.getElementById('overlay-container');
 
-  const container = document.createElement('div');
-  container.setAttribute('id', 'container');
+  (0,_nav__WEBPACK_IMPORTED_MODULE_1__.updateNav)(e);
+
+  
 
   overlay.appendChild(container);
 
@@ -1078,7 +1103,7 @@ const createNav = () => {
   const about = document.createElement('h4');
   about.textContent = 'about'.toUpperCase();
   about.setAttribute('id', 'nav-about');
-  about.addEventListener('click', _about__WEBPACK_IMPORTED_MODULE_1__.createAbout)
+  about.addEventListener('click', _about__WEBPACK_IMPORTED_MODULE_1__.aboutPage)
 
   nav.appendChild(home);
   nav.appendChild(menu);
@@ -1093,15 +1118,15 @@ const updateNav = (e) => {
   const navMenu = document.getElementById('nav-menu');
   const navAbout = document.getElementById('nav-about');
 
-  if (e.target.id === 'nav-about') {
+  if (e.target.id === 'nav-about' || e.target.id === 'footer-nav-about') {
     navHome.classList.remove('active');
     navMenu.classList.remove('active');
     navAbout.classList.add('active');
-  } else if (e.target.id === 'nav-menu') {
+  } else if (e.target.id === 'nav-menu' || e.target.id === 'footer-nav-menu') {
     navHome.classList.remove('active');
     navAbout.classList.remove('active');
     navMenu.classList.add('active');
-  } else if (e.target.id === 'nav-home') {
+  } else if (e.target.id === 'nav-home' || e.target.id === 'footer-nav-home') {
     navAbout.classList.remove('active');
     navMenu.classList.remove('active');
     navHome.classList.add('active');
